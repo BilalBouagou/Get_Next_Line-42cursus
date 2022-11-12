@@ -13,7 +13,7 @@
 #include "get_next_line.h"
 
 /*
-** This function is called one a line has been extracted, it's used
+** This function is called once a line has been extracted, it's used
 ** to remove the extracted line from the stash.
 ** It starts by skipping the line that was returned (same logic
 ** used in grab_line()).
