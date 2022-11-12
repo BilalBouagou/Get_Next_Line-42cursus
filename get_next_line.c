@@ -70,7 +70,7 @@ char	*clean_stash(char *stash)
 ** Otherwise, it just allocates an extra byte for the NUL-terminator.
 ** It then copies the line in the variable menace, using the function
 ** copy(), which takes a dst, an src, and how much charactes to be copied
-** fed i because i has been incremented in the allocation. 
+** fed i (same logic as the one used in the allocation, note that i has been incremented). 
 */
 
 char	*grab_line(char *stash)
