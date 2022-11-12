@@ -28,7 +28,7 @@
 ** then filled with remaining characters using the function copy, which
 ** takes the new stash, the stash plus the index of character plus one
 ** (because we do not want to include the last character in the copying)
-** and the lenght of the stash minus the index minus one is fed as a
+** and the lenght of the stash minus the index minus one is fed as
 ** the number of characters to be copied (- 1 because the NUL-terminator
 ** should not be taken into consideration when using the function copy())
 ** Lastly, the stash is freed and new stash is returned.
